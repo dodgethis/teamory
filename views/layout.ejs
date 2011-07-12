@@ -1,0 +1,20 @@
+<html>
+    <head> 
+    <title> <%= title %> </title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="path-to-file/jquery.center.js"></script>
+	<script type="text/javascript">
+		$('body').center();
+	</script>
+    </head>
+        <body> 
+    	    <% if(session.user) { %>
+    	    <p> Logged in as <%= session.user.login %> </p>
+    	    <% } %>
+
+    	    <% if (flash.warn) { %>
+    	    <p id='warn'> <%= flash.warn %> </p>        
+			<% } %>
+    	    <%- body %>
+        </body>
+</html>
