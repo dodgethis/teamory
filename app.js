@@ -5,7 +5,7 @@
 var express = require('express');
 var ejs = require('ejs');
 var RedisStore = require('connect-redis')(express);
-var store = new RedisStore;
+//var store = new RedisStore;
 
 var app = module.exports = express.createServer(
   express.cookieParser(),
