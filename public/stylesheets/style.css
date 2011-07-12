@@ -1,8 +1,231 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/********************
+***  Style reset  ***
+********************/
+*
+{
+   margin: 0;
+   padding: 0;
 }
 
-a {
-  color: #00B7FF;
+
+
+/**********************
+***  Global Styles  ***
+**********************/
+html { background: #252525; }
+html, body
+{
+   color: #000;
+   margin: 0 auto;
+   font: 13px "Trebuchet MS", arial, verdana, sans-serif;
+}
+body
+{
+   width: 890px;
+   background: #252525 url('images/logo.png') no-repeat 0 40px;
+   padding: 40px 0;
+}
+h1
+{
+   font: 40px "Trebuchet MS", sans-serif;
+   background-color: transparent;
+   color: #fff;
+   padding-left: 90px;
+}
+h2
+{
+   font: 16px "Trebuchet MS", sans-serif;
+   background-color: transparent;
+   color: #979797;
+   padding-left: 95px;
+}
+p
+{
+   padding: 6px 5px;
+}
+a:link, a:active
+{
+   background-color: inherit;
+   color: #b1ae94;
+}
+a:visited
+{
+   background-color: inherit;
+   color: #918e74;
+}
+a:hover
+{
+   text-decoration: none;
+}
+ul
+{
+   list-style-type: none;
+}
+
+
+
+/***********************
+***  Top Navigation  ***
+***********************/
+ul#navigation
+{
+   height: 20px;
+   width: auto;
+   float: right;
+   padding: 35px 0 0 0;
+   margin: 0;
+}
+ul#navigation li a
+{
+   display: block;
+   float: left;
+   margin: 0 0 0 4px;
+   height: 24px;
+   background: #252525;
+   color: #fff;
+   font-size: 10px;
+   font-weight: bold;
+   text-decoration: none;
+   text-align: center;
+}
+ul#navigation li
+{
+   display: inline;
+}
+ul#navigation li a span
+{
+   padding: 6px 5px 0 5px;
+   height: 18px;
+   display: block;
+   float: left;
+}
+ul#navigation li a:hover
+{
+   background: #fff url('images/navigation-bg-right.png') no-repeat right;
+   color: #000;
+}
+ul#navigation li a:hover span
+{
+   background: transparent url('images/navigation-bg-left.png') no-repeat left;
+   color: #000;
+}
+
+
+
+/*********************
+***  Main Content  ***
+*********************/
+div#main-content
+{
+   margin: 59px 0 0 0;
+   padding: 15px 15px 10px 235px;
+   background: #fff url('images/bg.png') repeat-y left;
+}
+div#main-content h3
+{
+   font: 18px Georgia, "Trebuchet MS", verdana, arial, sans-serif;
+   padding: 10px 0 0 10px;
+   font-weight: normal;
+}
+div#main-content h4
+{
+   background-color: transparent;
+   color: #979797;
+   font-size: 10px;
+   padding: 0 0 5px 15px;
+   font-weight: normal;
+}
+div#side-col
+{
+   margin: 59px 0 0 0;
+   padding: 5px 0 10px 0;
+   font-size: 10px;
+   float: left;
+   display: inline;
+   width: 225px;
+   background: #fff url('images/bg.png') repeat-y left;
+}
+div#side-col h3
+{
+   font-size: 10px;
+   padding: 30px 15px 5px 15px;
+}
+div#side-col p
+{
+   padding: 0 15px 5px 15px;
+}
+div#side-col p#quote-link a
+{
+   margin: 20px 0 0 0;
+   float: right;
+   display: block;
+   background: #e2e0c3;
+   padding: 7px;
+   width: 100px;
+   text-align: center;
+   color: #ef067c;
+}
+
+
+
+/*****************
+***  Services  ***
+*****************/
+ul#services
+{
+   border-top: 1px solid #fff;
+   background: #fbf9ed url('images/bg-light.png') repeat-y right;
+}
+ul#services li
+{
+   background: transparent url('images/logo-design.png') no-repeat 10px 17px;
+   border-bottom: 1px solid #fff;
+   padding: 12px 5px 12px 35px;
+}
+ul#services li#web-design { background-image: url('images/web-design.png'); }
+ul#services li#valid-markup { background-image: url('images/valid-markup.png'); }
+ul#services li#free-quote { background-image: url('images/free-quote.png'); }
+ul#services li a:link, ul#services li a:active, ul#services li a:visited
+{
+   background-color: inherit;
+   color: #000;
+   font-weight: bold;
+   text-decoration: none;
+}
+ul#services li a:hover
+{
+   text-decoration: underline;
+}
+
+
+
+/********************
+***  Welcome Box  ***
+********************/
+div#welcome
+{
+   background: #fbf9ed url('images/welcome-bg.png') no-repeat bottom right;
+   margin: 0 0 10px 0;
+   border: 3px solid #f0eed9;
+}
+div#welcome p
+{
+   background: #fbf9ed;
+   color: #b1ae94;
+   font-size: 14px;
+   margin: 10px 150px 10px 10px;
+}
+
+
+
+/********************
+***  Page Footer  ***
+********************/
+p#footer
+{
+   background-color: transparent;
+   color: #979797;
+   font-size: 10px;
+   padding: 40px 0 0 0;
+   text-align: center;
 }
