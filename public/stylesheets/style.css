@@ -22,7 +22,7 @@ html, body
 body
 {
    width: 890px;
-   background: #252525 url('images/logo.png') no-repeat 0 40px;
+   background: #252525 url('../images/logo.png') no-repeat 0 40px;
    padding: 40px 0;
 }
 h1
@@ -101,12 +101,12 @@ ul#navigation li a span
 }
 ul#navigation li a:hover
 {
-   background: #fff url('images/navigation-bg-right.png') no-repeat right;
+   background: #fff url('../images/navigation-bg-right.png') no-repeat right;
    color: #000;
 }
 ul#navigation li a:hover span
 {
-   background: transparent url('images/navigation-bg-left.png') no-repeat left;
+   background: transparent url('../images/navigation-bg-left.png') no-repeat left;
    color: #000;
 }
 
@@ -119,7 +119,7 @@ div#main-content
 {
    margin: 59px 0 0 0;
    padding: 15px 15px 10px 235px;
-   background: #fff url('images/bg.png') repeat-y left;
+   background: #fff url('../images/bg.png') repeat-y left;
 }
 div#main-content h3
 {
@@ -143,7 +143,7 @@ div#side-col
    float: left;
    display: inline;
    width: 225px;
-   background: #fff url('images/bg.png') repeat-y left;
+   background: #fff url('../images/bg.png') repeat-y left;
 }
 div#side-col h3
 {
@@ -174,17 +174,17 @@ div#side-col p#quote-link a
 ul#services
 {
    border-top: 1px solid #fff;
-   background: #fbf9ed url('images/bg-light.png') repeat-y right;
+   background: #fbf9ed url('../images/bg-light.png') repeat-y right;
 }
 ul#services li
 {
-   background: transparent url('images/logo-design.png') no-repeat 10px 17px;
+   background: transparent url('../images/logo-design.png') no-repeat 10px 17px;
    border-bottom: 1px solid #fff;
    padding: 12px 5px 12px 35px;
 }
-ul#services li#web-design { background-image: url('images/web-design.png'); }
-ul#services li#valid-markup { background-image: url('images/valid-markup.png'); }
-ul#services li#free-quote { background-image: url('images/free-quote.png'); }
+ul#services li#web-design { background-image: url('../images/web-design.png'); }
+ul#services li#valid-markup { background-image: url('../images/valid-markup.png'); }
+ul#services li#free-quote { background-image: url('../images/free-quote.png'); }
 ul#services li a:link, ul#services li a:active, ul#services li a:visited
 {
    background-color: inherit;
